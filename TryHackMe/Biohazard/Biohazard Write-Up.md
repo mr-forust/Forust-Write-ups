@@ -212,7 +212,7 @@ Continuing with a sitemap
 ## /tigerStatusRoom
 On this page, we are being promted to enter gem flag
 ![](Pasted%20image%2020250609233513.png)
-Let's put blue [gem flag](BioHazard%20Flags.md) here:
+Let's put blue [gem flag](BioHazard%20Flags%20and%20Notes.md) here:
 And we've got a bunch of text:
 ```
 crest 1:  
@@ -222,3 +222,41 @@ Hint 2: Crest 1 contanis 14 letters
 Note: You need to collect all 4 crests, combine and decode to reavel another path  
 The combination should be crest 1 + crest 2 + crest 3 + crest 4. Also, the combination is a type of encoded base and you need to decode it
 ```
+idk what is this, but let's go to the cyberchef:
+![](Pasted%20image%2020250610000855.png)
+Auto-Recipe gives me `from base64 -- from base32` chain.
+I think we are done here, let's proceed with a sitemap
+``` 
+/galleryRoom/  
+/studyRoom/  
+/armorRoom/  
+/attic/
+```
+## /galleryRoom
+Here we have a link to a `/galleryRoom/note.txt` with a following text:
+```
+crest 2:
+GVFWK5KHK5WTGTCILE4DKY3DNN4GQQRTM5AVCTKE
+Hint 1: Crest 2 has been encoded twice
+Hint 2: Crest 2 contanis 18 letters
+Note: You need to collect all 4 crests, combine and decode to reavel another path
+The combination should be crest 1 + crest 2 + crest 3 + crest 4. Also, the combination is a type of encoded base and you need to decode it
+```
+CyberChef chain `from Base32 -- from Base58`
+![](Pasted%20image%2020250610002019.png)
+And we are done here
+```   
+/studyRoom/  
+/armorRoom/  
+/attic/
+```
+## /armorRoom
+/*studyRoom will be in the next paragraph. it is skipped due to blockage by the /armorRoom*
+
+
+## /studyRoom
+On the page text tells us, that the door is locked (access is blocked) with a text:
+>Look like the door has been locked
+A **helmet symbol** is embedded on the door
+
+Let's head to the armor room

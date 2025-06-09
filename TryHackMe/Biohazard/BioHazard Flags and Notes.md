@@ -15,3 +15,24 @@
 `gold_emblem{58a8c41a9d08b8a4e38d02a4d7ff4843}`
 ### What is the blue gem flag
 `blue_jewel{e1d457e96cac640f863ec7bc475d48aa}`
+
+# Crests
+## crest 1:
+`RlRQIHVzZXI6IG`
+## crest 2
+`h1bnRlciwgRlRQIHBh`
+## crest 3
+``
+# Sitemap
+```
+/diningRoom/  
+/teaRoom/  
+/artRoom/  
+/barRoom/  
+/diningRoom2F/  
+/tigerStatusRoom/  
+/galleryRoom/  
+/studyRoom/  
+/armorRoom/  
+/attic/
+```
